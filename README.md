@@ -38,7 +38,7 @@ A TypeScript definition file is included so that 'youtube-search' can be used
 easily from TypeScript.
 
 ```typescript
-import * as youtubeSearch from "youtube-search";
+import youtubeSearch from "youtube-search";
 
 var opts: youtubeSearch.YouTubeSearchOptions = {
   maxResults: 10,
